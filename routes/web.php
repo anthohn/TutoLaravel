@@ -31,3 +31,12 @@ Route::prefix('/blog')->name('blog.')->controller(BlogController::class)->group(
     ])->name('show');
 });
 
+    // Route::get('/add', function (Request $request) {
+    //     $post = new \App\Models\Post();
+    //     $post->title = 'Mon second3 article';
+    //     $post->slug = 'mon-second3-article';
+    //     $post->content = 'Mon contenu';
+    //     $post->save();
+
+    //     return $post;
+    // });
